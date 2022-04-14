@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    height: 7vh;
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+/***********************************
+                NavBar
+***********************************/
+
+nav{
+    height: 7%;
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul{
+    height: 7%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+nav ul li{
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+}
+
+.accueil{
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo{
+    flex: 5;
+}
+
+img.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo a{
+    color: #47a8cc;
+}
+
+/***********************************
+            Section 1
+***********************************/
+
+.section-1{
+    height: 110vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url(../images/index1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.section-1 article{
+    padding-top: 32vh;
+    margin-left: 60vw;
+}
+
+.section-1 h1{
+    color: #47a8cc;
+    padding-bottom: 7vh;
+    font-size: 2em;
+}
+
+.section-1 p{
+    color: grey;
+    font-size: 1em;
+    padding-bottom: 7vh;
+}
+
+/* .section-1 .btn-1, .section-3-container-text .btn-2 a{
+    height: 7vh; 
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    
+} */
+
+.btn-1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.arrow{
+    position: absolute;
+    bottom: 1vh;
+    left: 49%;
+}
+
+.fa-chevron-down{
+    color: #47a8cc;
+    font-size: 5em;
+}
+
+.section-1 svg{
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    width: 100%;
+}
+
+/***********************************
+            Section 2
+***********************************/
+
+.section-2{
+    display: flex;
+}
+
+.section-2-text-img{
+    height: 30%;
+    width: 40vw;
+    margin-top: 8vh;
+    margin-left: 10vw;
+    margin-right: 2vw;
+    position: relative;
+}
+
+.section-2-text-1, .section-2-text-2{
+    padding: 3vh;
+}
+
+.section-2-text-1 h2, .section-2-text-2 h2, .section-3-text-1 h2, .section-3-text-2 h2{
+    padding-bottom: 4vh;
+    color: #47a8cc;
+    font-size: 1.2em;
+}
+
+.section-2-text-1 p, .section-2-text-2 p, .section-3-text-1 p, .section-3-text-2 p{
+    font-size: 1em;
+    color: grey;
+    padding-top: -4vh;
+}
+
+.section-2-img-1{
+    width:  40vw; 
+    height: 70vh;
+}
+
+.section-2-img-2{
+    width:  30vw; 
+    height: 45vh;
+    position: absolute;
+    z-index: 1;
+    top: 182vh;
+    left: 30vw;
+}
+
+/***********************************
+            Section 3
+***********************************/
+
+.section-3{
+    margin-top: 50vh;
+    margin-bottom: 30vh;
+    display: flex;
+}
+
+.section-3-img-1{
+    width:  50vw; 
+    height: 70vh;
+    padding-left: 10vw;
+}
+
+.section-3-container-text{
+    position: relative;
+}
+
+.section-3-text-1, .section-3-text-2{
+    height: 30%;
+    width: 40vw;
+    margin-left: 6vw;
+    margin-right: 2vw;
+    padding-top: 1vh;
+}
+
+.section-3-text-2{
+    padding-top: 9vh;
+}
+
+.btn-2{
+    border: none;
+    position: absolute;
+    top: 53vh;
+    left: 6vw;
+}
+
+.section-3-container-text .btn-2 a{
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #47a8cc;
+}
+
+/***********************************
+            Section 4
+***********************************/
+
+.section-4{
+    height: 120vh;
+    width: 100%;
+    margin-bottom: 8vh;
+}
+
+.section-4-text-img{
+    width: 100%;
+    height: 63vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/index2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.section-4-text{
+    color: white;
+    padding-left: 3vw;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+}
+
+.chevrol{
+    padding-top: 2vh;
+}
+
+.icon{
+    border-left: white solid 2px;
+    color: white;
+    height: 10vh;
+    margin-top: 45vh;
+    margin-left: 45vw;
+    padding-left: 1vw;
+    
+}
+
+.container-vignette{
+    display: flex;
+    justify-content: space-between;
+    margin: 25vh 7vw 5vh 7vw;
+}
+
+.vignette-gauche h2, .vignette-centre h2, .vignette-droite h2{
+    color: #47a8cc;
+    padding-bottom: 2vh;
+    
+}
+
+.vignette-gauche p, .vignette-centre p, .vignette-droite p{
+    color: grey;
+}
+
+/***********************************
+            Section 5
+***********************************/
+
+.section-5{
+    height: 110vh;
+    width: 100%;
+    padding-top: 10vh;
+    background-image: url(../images/index3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-5 .container-text{
+    width: 40vw;
+    margin-top: 40vh;
+    margin-left: 50vw;
+}
+
+.section-5 h2{
+    color: #47a8cc;
+}
+
+.section-5 p{
+    color: white;
+    padding-bottom: 10vh;
+}
+
+/***********************************
+            Section 6
+***********************************/
+
+.section-6{
+    height: 80vh;
+    width: 100%;
+    background-color: #47a8cc;
+}
+
+.section-6-vignette{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 30vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.section-6-vignette-gauche, .section-6-vignette-centre, .section-6-vignette-droite{
+    width: 17vw;
+}
+
+.section-6-vignette h2{
+    font-size: 2em;
+    padding-bottom: 5vh;
+}
+
+.section-6 p{
+    font-size: 0.9em;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #47a8cc;
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 25vw;
+    padding-top: 4vh;
+    width: 100%;
+}
+
+.copyright p{
+    flex: 1;
+    color: white;
+}
+
+/***********************************
+            RESPONSIVE
+***********************************/
+
+@media screen and (max-width: 450px){
+
+    button{
+        height: 5vh;
+        width: 21vw;
+    }
+    
+    /****** NavBar ******/
+    nav{
+        height: 25vh;
+        padding: 0.3vh;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /****** Section 1 ******/
+
+    .section-1{
+        height: 80vh;
+        width: 100%;
+        background-position-x: -105vw;
+    }
+
+    .section-1 article{
+        padding: 8vh;
+        margin: auto;
+        padding-top: 20vh;
+    }
+
+    .section-1 h1{
+        font-size: 1.5em;
+    }
+
+    .section-1 .btn-1{
+        height: 5vh;
+        width: 21vw;
+    }
+
+    .arrow{
+        bottom: -2vh;
+        left: 43%;
+    }
+
+    .section-1 svg {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        width: 100%;
+    }
+
+    /****** Section 2 ******/
+
+    .section-2{
+        flex-direction: column;
+    }
+    
+    .section-2-text-img {
+        margin-top: 4vh;
+        height: unset;
+        width: unset;
+        /* margin-left: unset;
+        margin-right: unset; */
+    }
+
+    .section-2-img-1{
+        width:  100%; 
+        height: 70vh;
+    }
+
+    .section-2-img-2{
+        width:  100%; 
+        height: 45vh;
+        position: absolute;
+        z-index: 1;
+        top: 236vh;
+        left: 0vw;
+    }
+
+    /****** Section 3 ******/
+
+    .section-3 {
+        margin-top: 47vh;
+        margin-bottom: 4vh;
+        flex-direction: column;
+    }
+
+    .section-3-img-1{
+        width: 100%;
+        height: 55vh;
+        padding: unset;
+    }
+
+    .section-3-text-1, .section-3-text-2 {
+        height: 30%;
+        width: unset;
+        margin-left: 6vw;
+        margin-right: 6vw;
+        padding-top: 3vh;
+    }
+
+    .section-3-container-text{
+        position: unset;
+    }
+
+    .btn-2{
+        height: 5vh;
+        width: 21vw;
+        position: unset;
+        margin: 3vh;
+    }
+
+    .btn-2 a{
+        height: 5vh;
+        width: 21vw;
+        
+    }
+
+    /****** Section 4 ******/
+
+    .section-4{
+        height: 130vh;
+        margin-bottom: unset;
+    }
+
+    .section-4-text-img{
+        background-position-x: -200vw;
+        background-repeat: unset;
+    }
+
+    .container-vignette {
+        justify-content: space-between;
+        margin: 4vh 7vw 4vh 7vw;
+    }
+
+    .section-4-text {
+        padding-left: 3vw;
+        padding-top: 3vh;
+        padding-bottom: 2vh;
+        height: 10vw;
+        width: 100%;
+    }
+
+    .icon{
+        /* margin-left: 0vw; */
+        margin-top: 52vh;
+        margin-left: -26vw;
+        height: 7vh;
+    }
+
+    .vignette-gauche, .vignette-centre, .vignette-droite{
+        margin: 1vh;
+    }
+
+    /****** Section 5 ******/
+
+    .section-5 {
+        height: 75vh;
+    }
+    
+    .section-5 .container-text{
+        margin-top: unset;
+        margin-left: 34vw;
+    }
+
+    /****** Section 6 ******/
+
+    .section-6 {
+        height: 75vh;
+    }
+
+    .section-6-vignette{
+        padding-top: 5vh;
+    }
+
+
+}

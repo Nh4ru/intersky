@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/***********************************
+                NavBar
+***********************************/
+
+nav{
+    height: 7%;
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul{
+    height: 7%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+nav ul li{
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+}
+
+.produits{
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo{
+    flex: 5;
+}
+
+img.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo a{
+    color: #47a8cc;
+}
+
+/***********************************
+            Section 1
+***********************************/
+
+.section-tarifs{
+    width: 100%;
+    height: 280vh;
+}
+
+.section-tarifs h1{
+    color: #47a8cc;
+    text-align: center;
+    padding: 5vh 0vw;
+}
+
+.container-ski{
+    display: flex;
+    justify-content: space-around;
+    padding: 5vh 5vw;
+    
+}
+
+aside{
+    border: #47a8cc solid 1px;
+    width: 20vw;
+    height: 75vh;
+}
+
+.container-ski h2{
+    color: #47a8cc;
+    border-top: #47a8cc solid 1px;
+    text-align: center;
+    padding: 2vh 2vw;
+    font-size: 1em;
+}
+
+.container-ski p{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 1vh;
+}
+
+ .ski{
+    width: 100%;
+    height: 35vh;
+    padding: 3vh 3vw;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star {
+    direction: rtl;
+ }
+ .star a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 2em;
+    transition: color .4s;
+ }
+ .star a:hover,
+ .star a:focus,
+ .star a:hover ~ a,
+ .star a:focus ~ a {
+    color: #47a8cc;
+    cursor: pointer;
+ }
+
+.arrow{
+    display: flex;
+
+}
+
+.fa-angle-down{
+    padding-top: 3vh;
+    padding-right: 1vw;
+}
+
+p.number{
+    padding-top: 2.7vh;
+    font-size: 0.6em;
+}
+
+p.price-1{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+button{
+    height: 7vh; 
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 2vh 5vw;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #47a8cc;
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 25vw;
+    padding-top: 4vh;
+    width: 100%;
+}
+
+.copyright p{
+    flex: 1;
+    color: white;
+}

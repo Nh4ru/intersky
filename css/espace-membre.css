@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/***********************************
+                NavBar
+***********************************/
+
+nav{
+    height: 7%;
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul{
+    height: 7%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+nav ul li{
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+}
+
+.membre {
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo{
+    flex: 5;
+}
+
+img.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo a{
+    color: #47a8cc;
+}
+
+/***********************************
+            Section 1
+***********************************/
+section{
+    height: 82vh;
+    width: 100%;
+    padding: 5vh 22vw;
+}
+
+article{
+    height: 60vh;
+    width: 60vw;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.gauche, .droite{
+    width: 30vw;
+}
+
+/* .droite{
+    border: coral solid 2px;
+
+} */
+
+h2{
+    color: #47a8cc;
+    font-size: 1.5em;
+    padding: 5vh 0vw;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    height: 44vh;
+    width: 25vw;
+    border: #47a8cc solid 2px;
+    justify-content: center;
+    color: #47a8cc;
+    border-radius: 5px;
+}
+
+label{
+    padding: 2vh 3vw;
+}
+
+input{
+    height: 4vh;
+    width: 20vw;
+    margin: 2vh 3vw;
+    border: #47a8cc solid 1px;
+    padding-left: 1vw;
+}
+
+button{
+    height: 5vh; 
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 2vh 3vw;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #47a8cc;
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 25vw;
+    padding-top: 4vh;
+    width: 100%;
+}
+
+.copyright p{
+    flex: 1;
+    color: white;
+}

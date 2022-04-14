@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/***********************************
+                NavBar
+***********************************/
+
+nav{
+    height: 7%;
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul{
+    height: 7%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+nav ul li{
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+}
+
+.membre {
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.logo{
+    flex: 5;
+}
+
+img.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo a{
+    color: #47a8cc;
+}
+
+/***********************************
+            Section 1
+***********************************/
+section{
+    height: 100vh;
+    width: 100%;
+    padding: 5vh 10vw;
+}
+
+section h2{
+    color: #47a8cc;
+    font-size: 1.5em;
+    padding: 5vh 0vw;
+}
+
+article{
+    height: 30vh;
+    width: 80vw;
+    margin-bottom: 10vh;
+}
+
+.container-vignette{
+    display: flex;
+    justify-content: space-between;
+}
+
+.gauche{
+    border: #47a8cc solid 1px;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.centre{
+    border: #47a8cc solid 1px;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+.droite{
+    border: #47a8cc solid 1px;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
+h3, p{
+    padding: 3vh 2vw;
+    color: grey;
+}
+
+p{
+    font-size: 1em;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #47a8cc;
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 25vw;
+    width: 100%;
+}
+
+.copyright p{
+    flex: 1;
+    color: white;
+}

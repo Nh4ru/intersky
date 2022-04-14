@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    height: 7vh;
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 3vh 5vw;
+}
+
+/***********************************
+                NavBar
+***********************************/
+
+nav{
+    height: 7%;
+    border-bottom: #47a8cc solid 2px;
+}
+
+nav ul{
+    height: 7%;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    list-style: none;
+}
+
+nav ul li{
+    flex: 2;
+    width: 100%;
+    margin: auto;
+    padding: 1vw;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+.produits{
+    border-bottom: #47a8cc solid 2px;
+}
+
+.logo{
+    flex: 5;
+}
+
+img.logo{
+    height: 60px;
+    width: 120px;
+}
+
+.logo a{
+    color: #47a8cc;
+}
+
+/***********************************
+            Section 1
+***********************************/
+
+.section-produit{
+    width: 100%;
+    height: 85vh;
+}
+
+.section-produit h1{
+    color: #47a8cc;
+    text-align: center;
+    padding: 5vh 0vw;
+}
+
+.container-vignette{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 5vw;
+}
+
+div{
+    border: #47a8cc solid 1px;
+    width: 20vw;
+
+}
+
+.container-vignette h3{
+    color: #47a8cc;
+    border-top: #47a8cc solid 1px;
+    text-align: center;
+    padding: 3vh 2vw;
+}
+
+.container-vignette p{
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+/* button{
+    height: 7vh; 
+    width: 10vw;
+    background-color: #47a8cc;
+    border-radius: 5px;
+    border: none;
+    margin: 3vh 5vw;
+} */
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/***********************************
+            FOOTER
+***********************************/
+
+footer{
+    height: 10vh;
+    width: 100%;
+    background-color: #47a8cc;
+    color: white;
+    text-align: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    padding: 0vh 25vw;
+    padding-top: 4vh;
+    width: 100%;
+}
+
+.copyright p{
+    flex: 1;
+    color: white;
+}
+
+/***********************************
+            RESPONSIVE
+***********************************/
+
+@media screen and (max-width: 450px){
+
+    button{
+        height: 5vh;
+        width: 21vw;
+    }
+    
+    /****** NavBar ******/
+    nav{
+        height: 25vh;
+        padding: 0.3vh;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /****** Section 1 ******/
+
+    .section-produit{
+        height: 150vh;
+    }
+
+    .container-vignette{
+        display: unset;
+    }
+
+    div{
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 5vh
+    }
+
+    button{
+        margin: 3vh 15vw;
+    }
+
+    /****** Footer ******/
+    
+    footer{
+        margin-top: 7vh;
+    }
+    
+
+
+
+
+
+
+}
